@@ -1,0 +1,169 @@
+/*topo do cabeçalho*/
+
+.cabeçalho {
+    background-color: var(--cor-de-fundo);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 32px;
+    width: 1280px;
+    height: 44px;
+    margin-top: 18px;
+    margin-left: 80px;
+}
+
+.lista-menu1 {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.lista-menu2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    gap: 32px;
+    margin-left: -250px;
+    
+}
+
+.lista-menu3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 12px;
+    margin-right: 32px;
+    
+}
+
+.entrar {
+    text-decoration: none;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.lista-menu__icone {
+    margin-left: 32px;
+    
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+/*.sombra {*/
+    /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);*/ /*há uma sombra no projeto do design nesse link, mas estéticamente parece ter sido colocado por engano. Optei por não colocar no projeto, mas deixarei o comando aqui*/
+/*}*/
+
+
+.nome-empresarial {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    color: #3A404E;
+}
+
+.botao {
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: var(--vermelho);
+    border-style: solid;
+    width: 112px;
+    height: 44px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--vermelho);
+    color: var(--cor-de-fundo);
+    cursor: pointer;
+}
+
+/*Sobre nós*/
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    gap: 24px;
+}
+
+.sobre-empresa {
+    color: #8E2424;
+    font-size: 16px;
+    font-weight: bold;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+}
+
+h1 {
+    color:#101828;
+    font-size: 48px;
+    font-weight: bold;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+}
+
+.paragrafo {
+    color: var(--cinza);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
+
+/*Informações sobre a empresa*/
+
+.container-grid {
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 32px;
+    margin-left: 80px;
+    margin-right: 44px;
+    padding-left: 32px;
+    /*padding-right: 32px;*/
+}
+
+
+.numeros {
+    color: var(--vermelho);
+    font-size: 60px;
+    font-weight: bold;
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    padding-bottom: 12px;
+}
+
+h2 {
+    color: var(--preto);
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.paragrafo-dois {
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+}
+
+
+
+

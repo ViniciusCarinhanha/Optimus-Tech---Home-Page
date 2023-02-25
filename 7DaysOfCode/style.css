@@ -1,0 +1,10 @@
+@import url(styles/cabeçalho.css);
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --vermelho: #8E2424;
+    --fonte-principal: "Inter";
+    --cinza: #667085;
+    --preto: #101828;
+
+}
